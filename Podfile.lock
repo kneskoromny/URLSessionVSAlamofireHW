@@ -1,0 +1,28 @@
+PODS:
+  - Alamofire (5.4.3)
+  - Spring (1.0.6)
+
+DEPENDENCIES:
+  - Alamofire
+  - Spring (from `https://github.com/LexDeBash/Spring.git`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+
+EXTERNAL SOURCES:
+  Spring:
+    :git: https://github.com/LexDeBash/Spring.git
+
+CHECKOUT OPTIONS:
+  Spring:
+    :commit: 05fa00fbbec7167ab1d333ced8b22871a9c179c5
+    :git: https://github.com/LexDeBash/Spring.git
+
+SPEC CHECKSUMS:
+  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  Spring: 3d113f14575ef79aec9c5f906dfa4f5001c03254
+
+PODFILE CHECKSUM: 9c510f4cd62302efae07ba7dae3356c9ba108226
+
+COCOAPODS: 1.10.1

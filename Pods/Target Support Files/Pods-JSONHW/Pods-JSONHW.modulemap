@@ -1,0 +1,6 @@
+framework module Pods_JSONHW {
+  umbrella header "Pods-JSONHW-umbrella.h"
+
+  export *
+  module * { export * }
+}

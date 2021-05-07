@@ -34,10 +34,12 @@ class NasaPODViewController: UIViewController {
     }
     //MARK: - Private methods
     private func alamofireFetchData(from url: String?) {
+        // здесь возвращается тип данных модели Nasapod из escaping замыкания в виде result
         NetworkManager.shared.alamofireFetchAPOD(from: url) { result in
             switch result {
-            
+            // success уже содержит внутри себя тип данных NasaPod, нужно присвоить его свойству apod
             case .success(let apod):
+                // настраиваем вью из данных экземпляра модели
                 self.configureView(from: apod)
                 
             case .failure(let error):

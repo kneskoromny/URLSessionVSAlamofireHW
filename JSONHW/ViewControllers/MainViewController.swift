@@ -12,6 +12,7 @@ class MainViewController: UIViewController {
     //MARK: - IB Outlets
     @IBOutlet weak var springLabel: SpringLabel!
     
+    // test commit
     @IBOutlet weak var topButton: SpringButton!
     @IBOutlet weak var midButton: SpringButton!
     @IBOutlet weak var botButton: SpringButton!

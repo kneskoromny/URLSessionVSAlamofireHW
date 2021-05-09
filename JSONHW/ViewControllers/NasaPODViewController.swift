@@ -11,7 +11,7 @@ import Alamofire
 class NasaPODViewController: UIViewController {
     
     //MARK: - IB Outlets
-    @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var imageView: CacheImageView!
     
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     
@@ -51,10 +51,8 @@ class NasaPODViewController: UIViewController {
     private func configureView(from object: NasaPOD) {
         descriptionLabel.text = object.description
         
-        guard let imageURL = URL(string: object.url ?? "") else { return }
-        guard let imageData = try? Data(contentsOf: imageURL) else { return }
+        imageView.fetchImage(from: object.url ?? "")
         
-        imageView.image = UIImage(data: imageData)
         activityIndicator.stopAnimating()
     }
 }

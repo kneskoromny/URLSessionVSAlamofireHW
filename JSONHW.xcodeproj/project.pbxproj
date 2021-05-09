@@ -13,6 +13,7 @@
 		F79683D7264130A100EDE3B4 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79683D6264130A100EDE3B4 /* APIManager.swift */; };
 		F79683DF264143B100EDE3B4 /* JokesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79683DE264143B100EDE3B4 /* JokesViewController.swift */; };
 		F79683E12641493100EDE3B4 /* JokeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79683E02641493100EDE3B4 /* JokeTableViewCell.swift */; };
+		F796840B2647A84E00EDE3B4 /* CacheImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F796840A2647A84E00EDE3B4 /* CacheImageView.swift */; };
 		F7A5215C263C36720018A5F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A5215B263C36720018A5F7 /* AppDelegate.swift */; };
 		F7A5215E263C36720018A5F7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A5215D263C36720018A5F7 /* SceneDelegate.swift */; };
 		F7A52160263C36720018A5F7 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A5215F263C36720018A5F7 /* MainViewController.swift */; };
@@ -32,6 +33,7 @@
 		F79683D6264130A100EDE3B4 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		F79683DE264143B100EDE3B4 /* JokesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesViewController.swift; sourceTree = "<group>"; };
 		F79683E02641493100EDE3B4 /* JokeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeTableViewCell.swift; sourceTree = "<group>"; };
+		F796840A2647A84E00EDE3B4 /* CacheImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheImageView.swift; sourceTree = "<group>"; };
 		F7A52158263C36720018A5F7 /* JSONHW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSONHW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7A5215B263C36720018A5F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7A5215D263C36720018A5F7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 				F7A5217B263C5AA20018A5F7 /* NasaPODViewController.swift */,
 				F79683DE264143B100EDE3B4 /* JokesViewController.swift */,
 				F79683E02641493100EDE3B4 /* JokeTableViewCell.swift */,
+				F796840A2647A84E00EDE3B4 /* CacheImageView.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -284,6 +287,7 @@
 				F79683DF264143B100EDE3B4 /* JokesViewController.swift in Sources */,
 				F7A5215E263C36720018A5F7 /* SceneDelegate.swift in Sources */,
 				F7A52176263C4DBC0018A5F7 /* Models.swift in Sources */,
+				F796840B2647A84E00EDE3B4 /* CacheImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

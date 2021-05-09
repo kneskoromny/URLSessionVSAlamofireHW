@@ -11,7 +11,7 @@ import Alamofire
 class HappyObamaViewController: UIViewController {
     
     //MARK: - IB Outlets
-    @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var imageView: CacheImageView!
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     
     //MARK: - Override methods
@@ -21,7 +21,10 @@ class HappyObamaViewController: UIViewController {
         activityIndicator.startAnimating()
         activityIndicator.hidesWhenStopped = true
         
-        alamofireFetchData(from: APIManager.shared.happyObama)
+//        alamofireFetchData(from: APIManager.shared.happyObama)
+        
+        // загружаем картинку напрямую с image manager
+        imageView.fetchImage(from: APIManager.shared.happyObama)
     }
     
     //MARK: - Private Methods
